@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>TestProject</groupId>
+	<artifactId>TestProject</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>TestProject</name>
+	<url>wwww.infogain.com</url>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.2.9.Final</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>3.0.1</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+
+	<mailingLists>
+		<mailingList>
+			<name>Sakshi Arora</name>
+			<post>sakshi.arora@infogain.com</post>
+			<subscribe>sakshi.arora@infogain.com</subscribe>
+			<unsubscribe>sakshi.arora@infogain.com</unsubscribe>
+			<archive>sakshi.arora@infogain.com</archive>
+
+		</mailingList>
+
+	</mailingLists>
+
+	<licenses>
+		<license>
+			<name>Infogain India Pvt Ltd</name>
+			<url>www.infogainindia.com</url>
+		</license>
+	</licenses>
+
+	<contributors>
+		<contributor>
+			<name>Sakshi Arora</name>
+			<email>sakshi.arora@infogain.com</email>
+			<organization>Infogain India</organization>
+		</contributor>
+		<contributor>
+			<name>Utsav Kumar</name>
+			<email>utsav.kumar@infogaiin.com</email>
+			<organization>Infogain India</organization>
+		</contributor>
+		<contributor>
+			<name>Deepika Chauhan</name>
+			<email>deepika.chauhan@infogain.com</email>
+			<organization>Infogain India</organization>
+		</contributor>
+	</contributors>
+
+	<developers>
+		<developer>
+			<name>Sakshi Arora</name>
+			<roles>
+				<role>Developer</role>
+			</roles>
+			<email>sakshi.arora@infogain.com</email>
+		</developer>
+
+	</developers>
+	<packaging>pom</packaging>
+  <modules>
+    <module>TestService</module>
+    <module>TestUI</module>
+  </modules>
+</project>
